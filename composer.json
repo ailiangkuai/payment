@@ -1,0 +1,21 @@
+{
+    "name": "ailiangkuai/payment",
+    "description": "支持alipay wechat pay",
+    "keywords": ["alipay", "wechat", "pay"],
+    "authors": [
+        {
+            "name": "RicoYao",
+            "email": "ailiangkuai@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ailiangkuai\\payment\\": "src"
+        }
+    },
+    "license": "GPL2.0"
+}
